@@ -6,6 +6,7 @@ public class Calculator {
 
         double first, second;
         String op;
+        System.out.print("Hello");
         System.out.print("Enter 1st number: ");
         first = scanner.nextDouble();
         System.out.print("Enter 2nd number: ");
