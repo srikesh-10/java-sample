@@ -6,7 +6,7 @@ public class Calculator {
 
         double first, second;
         String op;
-        System.out.print("Hello");
+        System.out.println("Hello");
         System.out.print("Enter 1st number: ");
         first = scanner.nextDouble();
         System.out.print("Enter 2nd number: ");
@@ -39,5 +39,6 @@ public class Calculator {
             default:
                 System.out.println("Invalid Operator");
         }
+        System.out.println("Thank you");
     }
 }
