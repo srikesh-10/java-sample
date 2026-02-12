@@ -6,9 +6,9 @@ public class Calculator {
 
         double first, second;
         String op;
-        System.out.print("Enter first number: ");
+        System.out.print("Enter 1st number: ");
         first = scanner.nextDouble();
-        System.out.print("Enter second number: ");
+        System.out.print("Enter 2nd number: ");
         second = scanner.nextDouble();
         System.out.print("Enter operator (+, -, *, /): ");
         op = scanner.next();
